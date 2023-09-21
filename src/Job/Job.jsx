@@ -17,6 +17,7 @@ const Job = ({job}) => {
       <div className="badge badge-outline">{remote_or_onsite}</div> 
       <div className="badge badge-outline">{location}</div>
     </div>
+    <button className="px-10 py-2  bg-emerald-800 text-white">Show Details </button>
   </div>
 </div>
             </div>
