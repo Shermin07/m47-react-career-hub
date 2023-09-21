@@ -1,5 +1,6 @@
 
 import './App.css'
+import Root from './Components/Root/Root'
 
 function App() {
  
@@ -9,7 +10,7 @@ function App() {
      
       <h1>Vite + React</h1>
      
-      
+      <Root></Root>
     </>
   )
 }
