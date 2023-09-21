@@ -1,9 +1,14 @@
+import Categories from "../Categories/Categories";
+import Banner from "./Banner/Banner";
+import Features from "./Features/Features";
 
 
 const Home = () => {
     return (
-        <div>
-          <h2 className="bg-red-200">This is home</h2>  
+        <div className="max-w-screen-xl mx-auto">
+         <Banner></Banner>
+         <Categories></Categories>
+         <Features></Features>
         </div>
     );
 };
